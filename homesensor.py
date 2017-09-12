@@ -4,7 +4,7 @@ import time
 import serial, struct
 
 # MSSQL
-conn = pymssql.connect(server='vt2eq6avx8.database.windows.net',user='landlady@vt2eq6avx8',password='anfdpQkwlstkfka1',database='HomeInfo')
+conn = pymssql.connect(server='AZURESERVER',user='landlady@vt2eq6avx8',password='PASSWORD',database='HomeInfo')
 cursor = conn.cursor()
 
 # Serial Communication for PM 1001 dust sensor
